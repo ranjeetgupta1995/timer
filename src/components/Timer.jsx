@@ -28,7 +28,7 @@ const Timer = () => {
         timeRef.current = setInterval(() => {
             setTime((prevTime) => prevTime + 1)
             console.log(time)
-        }, 10)
+        }, 1000)
         
     }
 
